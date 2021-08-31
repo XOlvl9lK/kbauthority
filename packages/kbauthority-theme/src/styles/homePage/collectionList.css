@@ -1,0 +1,42 @@
+.collections {
+  margin-top: 150px;
+}
+
+.collections-description {
+  margin-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #1B3B56;
+}
+
+.collections-description h1 {
+  font-size: 30px;
+  flex: 1;
+}
+
+.collections-description p {
+  flex: 2;
+}
+
+.collections-list {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(235px, 420px));
+  grid-auto-rows: 480px;
+  grid-column-gap: 50px;
+  grid-row-gap: 20px;
+  justify-content: center;
+  position: relative;
+}
+
+.collections-list::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #F0F0F0;
+  transform: translateY(70px);
+}

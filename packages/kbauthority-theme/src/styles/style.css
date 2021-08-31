@@ -1,0 +1,22 @@
+
+* {
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.menu-enter {
+  opacity: 0;
+}
+.menu-enter-active {
+  opacity: 1;
+  transition: .3s;
+}
+.menu-exit {
+  opacity: 1;
+}
+.menu-exit-active {
+  opacity: 0;
+  transition: .3s;
+}

@@ -1,0 +1,161 @@
+.reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1000px;
+  margin: 50px auto 0;
+}
+
+.reviews-title {
+  font-size: 18px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reviews-title a {
+  color: #1B3B56;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.reviews-title a:hover {
+  color: #ED8B00;
+}
+
+.reviews-title p {
+  color: #333;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.appraisals {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+
+.score {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.score span {
+  color: white;
+  text-align: center;
+}
+
+.score span:first-of-type {
+  height: 70%;
+  background-color: #019F17;
+  line-height: 70px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.score span:last-of-type {
+  height: 30%;
+  background-color: #000;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.stats {
+  margin-left: 20px;
+  max-width: 220px;
+}
+
+.stats img {
+  width: 100%;
+}
+
+.overall-rating {
+  margin-left: 20px;
+  width: 135px;
+}
+
+.overall-rating p {
+  font-size: 22px;
+  color: #333;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.percentage {
+  width: 130px;
+  margin-left: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.percentage p:first-of-type {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.percentage p:last-of-type {
+  font-size: 12px;
+}
+
+.comments {
+  width: 100%;
+  height: 320px;
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.comments-pagination {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.page-select button {
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: white;
+  width: 26px;
+  height: 26px;
+  font-size: 10px;
+  color: #333;
+  cursor: pointer;
+}
+
+.page-select button.active {
+  background-color: rgb(224, 224, 224);
+}
+
+.comments-pagination p {
+  margin-left: 10px;
+  color: #333;
+  font-size: 18px;
+}
+
+.comments-pagination select {
+  color: #333;
+  height: 26px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+}
+
+.comments-pagination a {
+  margin-left: auto;
+}
+
+.awards {
+  margin-top: 70px;
+}
+
+.awards a:last-of-type {
+  margin-left: 20px;
+}

@@ -1,0 +1,53 @@
+.popular-brands {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #1B3B56;
+}
+
+.popular-brands h1 {
+  font-size: 30px;
+}
+
+.brands-list {
+  margin-top: 40px;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.brand-item {
+  width: 180px;
+  margin: 5px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brands-list img {
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.all-brands {
+  width: 160px;
+  height: 40px;
+  margin-top: 50px;
+  border: 1px solid #ED8B00;
+  border-radius: 3px;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  background-color: #ED8B00;
+  box-shadow: 1px 1px 10px #ED8B00;
+  transition: .3s;
+}
+
+.all-brands:hover {
+  color: #ED8B00;
+  background-color: white;
+}

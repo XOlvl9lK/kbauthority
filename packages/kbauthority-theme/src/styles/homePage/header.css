@@ -1,0 +1,129 @@
+header {
+  width: 100%;
+  height: 124px;
+  padding-left: 65px;
+  padding-right: 40px;
+  display: flex;
+  align-items: center;
+  background-color: #F0F0F0;
+}
+
+header * {
+  color: #1B3B56;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header a:visited {
+  color: #1B3B56;
+}
+
+.logo {
+  width: 262px;
+}
+
+.menu {
+  height: 60px;
+  margin-left: 40px;
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+  border-left: 2px solid #1B3B56;
+}
+
+.menu button {
+  background-color: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+
+}
+
+.menu button:hover h1 {
+  color: #ED8B00;
+}
+
+.menu button:hover .burger span {
+  background-color: #ED8B00;
+}
+
+.menu h1 {
+  margin-left: 20px;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+}
+
+.burger {
+  width: 30px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.burger span {
+  width: 100%;
+  height: 3px;
+  background-color: #1B3B56;
+}
+
+header input {
+  max-width: 907px;
+  height: 50px;
+  flex: 1;
+  margin-left: 35px;
+  padding: 5px 10px;
+  border: 1px solid #d8d8d8;
+  border-radius: 5px;
+  transition: .2s;
+}
+
+header input:focus {
+  outline: none;
+  border: 1px solid #1B3B56;
+  box-shadow: 1px 1px 10px rgb(226, 226, 226), -1px -1px 10px rgb(226, 226, 226);
+}
+
+.links {
+  margin-left: auto;
+  color: #1B3B56;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links a {
+  cursor: pointer;
+}
+
+.auth {
+  display: flex;
+  margin-top: 15px;
+}
+
+.auth a {
+  height: 25px;
+  padding: 0 20px;
+  line-height: 25px;
+}
+
+.auth a:first-of-type {
+  border-right: 1px solid #1B3B56;
+}
+
+.cart {
+  position: relative;
+  cursor: pointer;
+}
+
+.cart span {
+  position: absolute;
+  top: 23%;
+  left: 58%;
+  color: white;
+}
